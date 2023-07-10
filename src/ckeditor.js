@@ -64,17 +64,6 @@ Editor.builtinPlugins = [
 
 // Editor configuration.
 Editor.defaultConfig = {
-	plugins: [Mention, /* ... */],
-
-	mention: {
-		feeds: [
-			{
-				marker: '@',
-				feed: ['@Barney', '@Lily', '@Marry Ann', '@Marshall', '@Robin', '@Ted'],
-				minimumCharacters: 1
-			}
-		]
-	},
 	toolbar: {
 		items: [
 			'heading',
