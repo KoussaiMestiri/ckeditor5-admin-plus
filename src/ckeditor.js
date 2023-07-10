@@ -26,6 +26,7 @@ import Mention from '@ckeditor/ckeditor5-mention/src/mention.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js';
 import PictureEditing from '@ckeditor/ckeditor5-image/src/pictureediting.js';
+import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting.js';
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
@@ -57,6 +58,7 @@ Editor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	PictureEditing,
+	SourceEditing,
 	Table,
 	TableToolbar,
 	TextTransformation
@@ -83,6 +85,7 @@ Editor.defaultConfig = {
 			'mediaEmbed',
 			'undo',
 			'redo',
+			'sourceediting',
 			'exportPdf',
 			'exportWord'
 		]
